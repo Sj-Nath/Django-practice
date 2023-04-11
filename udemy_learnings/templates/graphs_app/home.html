@@ -10,8 +10,25 @@
 <body>
     <h1>Cell Data Analysis From ARAI Testing Data</h1>
     {{graph1}}
+    <div class="access_records">
+        {% if access_records %}
+        <table>
+            <thead>Site Name</thead>
+            <th>Date Accesed</th>
+
+        {% for acc in access_records %}
+        <tr>
+            <td>{{acc.name}}</td>
+            <td>{{acc.date}}</td>    
+        </tr>
+        {% endfor %}
+    </table>
+        {% else %}
+            <p> NO ACCESS RECORD FOUND</p>
+        {% endif %}
+    </div>
     <div>
-        <img src="{% static "images\eg.png" %}">
+        <!-- <img src="{% static "images\eg.png" %}"> -->
         <p>**This email has originated from outside TML organization. Do not click on the links or open the attachments unless you recognize the sender and know the content is safe.**
 
             Hey Sj-Nath!

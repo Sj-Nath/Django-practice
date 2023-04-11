@@ -21,6 +21,6 @@ from graphs_app import views
 urlpatterns = [
     re_path("admin/", admin.site.urls),
     re_path("^$", views.home),
-    re_path(r'^graphs_app/', include('graphs_app.urls'),name='home'),
+    re_path(r'^graphs_app/', include('graphs_app.urls'),name='graphs_app'),
     
 ]

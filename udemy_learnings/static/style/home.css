@@ -1,7 +1,12 @@
 h1{
-    color: rgb(17, 0, 255);
+    color: rgb(89, 13, 241);
+    text-align: center;
 }
 
-table, th, td{
+td{
     border: 2px solid black ;
+}
+th{
+    text-align: center;
+    color: #f50c33;
 }

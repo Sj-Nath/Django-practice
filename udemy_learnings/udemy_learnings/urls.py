@@ -22,5 +22,6 @@ urlpatterns = [
     re_path("admin/", admin.site.urls),
     re_path("^$", views.home),
     re_path(r'^graphs_app/', include('graphs_app.urls'),name='graphs_app'),
+    re_path(r'^forms_practice/', include('forms_practice.urls'),name='forms_practice'),
     
 ]

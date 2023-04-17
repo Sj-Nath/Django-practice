@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     'graphs_app',
-    'forms_practice'
+    'forms_practice',
+    'relative_url_template'
 ]
 
 MIDDLEWARE = [

@@ -24,5 +24,6 @@ urlpatterns = [
     re_path(r'^graphs_app/', include('graphs_app.urls'),name='graphs_app'),
     re_path(r'^forms_practice/', include('forms_practice.urls'),name='forms_practice'),
     re_path(r'^relative_url_template/', include('relative_url_template.urls'),name='relative_url_template'),
+    re_path(r'^class_based_view/', include('class_based_view.urls'),name='class_based_view'),
     
 ]

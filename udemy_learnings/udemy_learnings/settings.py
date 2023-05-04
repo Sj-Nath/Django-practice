@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'graphs_app',
     'forms_practice',
     'relative_url_template',
-    'signup_app'
+    'signup_app',
+    'class_based_view'
 ]
 
 MIDDLEWARE = [
